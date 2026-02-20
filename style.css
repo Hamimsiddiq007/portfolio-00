@@ -65,6 +65,13 @@ p{
     font-size: 1.2rem;
     text-align: justify;
 }
+
+.first-hr{
+    border: 3px solid white;
+    width: 100px;
+    margin: 10px auto;
+}
+
 .banner{
     padding: 130px 10px;
     position: relative;
@@ -114,6 +121,59 @@ p{
     content: "";
     display: table;
     clear: both;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about{
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 240px;
+    width: 200px;
+}
+
+.about p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about a{
+    font-size: 1.2rem;
+}
+
+.cv-btn{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    transition: transform 1s ease-in-out
+}
+
+.cv-btn:hover{
+    background-color: springgreen;
+    color: black;
 }
 
 

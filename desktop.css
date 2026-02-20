@@ -61,3 +61,16 @@
 .banner .bottom-mern:hover{
     width: 220px;
 }
+
+.about-img{
+    margin-top: 70px;
+}
+
+.about-img img{
+    height: 300px;
+    width: 250px;
+}
+
+.about-des p{
+    text-align: left;
+}
