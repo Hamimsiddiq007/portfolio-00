@@ -46,6 +46,8 @@ a{
 .menu a{
     padding: 10px;
     margin: 7px 0;
+    background-color: rgb(85, 101, 96);
+    border-radius: 10px;
 }
 .menu a:hover{
     background-color: white;
@@ -58,3 +60,60 @@ a{
     display: table;
     clear: both;
 }
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.banner{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.banner .top-mern{
+    height: 100px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    transition: transform 1s ease-in-out;
+}
+
+.banner .top-mern:hover{
+    transform: rotate(360deg);
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    font-family: "Betania Patmos", cursive;
+}
+
+.banner p{
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.banner .bottom-mern{
+    height: 100px;
+    width: 90px;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    transition: transform 1s ease-in-out;
+}
+
+.banner .bottom-mern:hover{
+    transform: rotate(360deg);
+}
+
+.banner::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

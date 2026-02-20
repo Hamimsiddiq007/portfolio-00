@@ -28,3 +28,36 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.menu a{
+    background-color: transparent;
+}
+
+.banner{
+    position: relative;
+    padding: 200px 10px;
+}
+
+.banner .top-mern{
+    height: 200px;
+    width: 190px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    transition: width 2s ease-in-out, transform 1s ease-in-out;
+}
+
+.banner .top-mern:hover{
+    width: 220px;
+}
+.banner .bottom-mern{
+    height: 200px;
+    width: 190px;
+    bottom: 30px;
+    left: 100px;
+    transition: width 2s ease-in-out, transform 1s ease-in-out;
+}
+
+.banner .bottom-mern:hover{
+    width: 220px;
+}
