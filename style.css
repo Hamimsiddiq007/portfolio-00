@@ -176,4 +176,9 @@ h2{
     color: black;
 }
 
+.card-icon img{
+    width: 100px;
+    height: 100px;
+}
+
 
