@@ -64,6 +64,7 @@ a{
 p{
     font-size: 1.2rem;
     text-align: justify;
+    padding: 10px 0;
 }
 
 .first-hr{
@@ -220,13 +221,6 @@ h2{
     margin: 10px 0;
 }
 
-
-.experience::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .skill-container{
     padding: 1px 0 1px 30px;
     overflow: hidden;
@@ -339,5 +333,53 @@ h2{
     to{
         width: 60%;
     }
+}
+
+.experience::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-me{
+    padding: 1% 2%;
+    background-color: #39a4ac;
+    color: white;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #052d2f;
+    color: white;
+    margin: 10px 5px;
+    transition: ease-in-out;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.contact button:hover{
+    background-color: teal;
+    border: 2px solid white;
+}
+
+.contact-me::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
