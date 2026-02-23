@@ -94,3 +94,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
