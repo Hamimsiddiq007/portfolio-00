@@ -361,7 +361,7 @@ h2{
 }
 
 .contact button{
-    border: none;
+    border: 2px solid transparent;
     border-radius: 12px;
     padding: 10px;
     background-color: #052d2f;
@@ -377,9 +377,27 @@ h2{
     border: 2px solid white;
 }
 
+.links{
+    text-align: center;
+}
+
+.media-button .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+.media-button .btn:hover{
+    background-color: gray;
+}
+
 .contact-me::after{
     content: "";
     display: table;
     clear: both;
 }
-
